@@ -693,11 +693,11 @@ while running:
             txt.sort()
             k += 35
             # draw_text(text_color, str(' : '.join(''.join(text).split(';'))), 30, 100, k)
-            draw_text(text_color, str("Наилудший результат: "), 30, 100, k)
+            draw_text(text_color, str("Наихудший результат: "), 30, 100, k)
             k += 35
             draw_text(text_color, str(' : '.join(''.join(txt[-1]).split(';'))), 30, 100, k)
             k += 35
-            draw_text(text_color, str("Наихудший результат: "), 30, 100, k)
+            draw_text(text_color, str("Наилудший результат: "), 30, 100, k)
             k += 35
             draw_text(text_color, str(' : '.join(''.join(txt[0]).split(';'))), 30, 100, k)
             k += 35
